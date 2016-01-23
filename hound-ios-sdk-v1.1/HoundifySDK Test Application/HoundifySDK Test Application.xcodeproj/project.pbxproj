@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1C2A6E81BF27E0A00A20B7C /* include in Resources */ = {isa = PBXBuildFile; fileRef = F1C2A6E61BF27E0A00A20B7C /* include */; };
+		F1C2A6E91BF27E0A00A20B7C /* libHoundSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C2A6E71BF27E0A00A20B7C /* libHoundSDK.a */; };
+		F1C2A6EC1BF289DE00A20B7C /* HoundSDK.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1C2A6EB1BF289DE00A20B7C /* HoundSDK.xcassets */; };
+		F1FC99DD1BE2A15F00B2796C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FC99DC1BE2A15F00B2796C /* main.m */; };
+		F1FC99E01BE2A15F00B2796C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FC99DF1BE2A15F00B2796C /* AppDelegate.m */; };
+		F1FC99E31BE2A15F00B2796C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FC99E21BE2A15F00B2796C /* ViewController.m */; };
+		F1FC99E61BE2A15F00B2796C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1FC99E41BE2A15F00B2796C /* Main.storyboard */; };
+		F1FC99E81BE2A15F00B2796C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1FC99E71BE2A15F00B2796C /* Images.xcassets */; };
+		F1FC99F81BE2A2BA00B2796C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1FC99F61BE2A2BA00B2796C /* LaunchScreen.xib */; };
+		F1FC9A031BE2AD3900B2796C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FC9A021BE2AD3900B2796C /* Foundation.framework */; };
+		F1FC9A051BE2AD4200B2796C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FC9A041BE2AD4200B2796C /* UIKit.framework */; };
+		F1FC9A071BE2AD4A00B2796C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FC9A061BE2AD4A00B2796C /* AudioToolbox.framework */; };
+		F1FC9A091BE2AD5100B2796C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FC9A081BE2AD5100B2796C /* AVFoundation.framework */; };
+		F1FC9A0B1BE2AD5800B2796C /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FC9A0A1BE2AD5800B2796C /* Accelerate.framework */; };
+		F1FC9A0D1BE2AD6600B2796C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FC9A0C1BE2AD6600B2796C /* libz.tbd */; };
+		F1FC9A0F1BE2AD7500B2796C /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F1FC9A0E1BE2AD7500B2796C /* libc++.tbd */; };
+		F1FC9A131BE3DE3E00B2796C /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FC9A121BE3DE3E00B2796C /* NavigationController.m */; };
+		F1FC9A311BE80BF300B2796C /* AppImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1FC9A301BE80BF300B2796C /* AppImages.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F1C2A6E61BF27E0A00A20B7C /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; name = include; path = ../HoundSDK/include; sourceTree = "<group>"; };
+		F1C2A6E71BF27E0A00A20B7C /* libHoundSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHoundSDK.a; path = ../HoundSDK/libHoundSDK.a; sourceTree = "<group>"; };
+		F1C2A6EB1BF289DE00A20B7C /* HoundSDK.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = HoundSDK.xcassets; path = ../HoundSDK/HoundSDK.xcassets; sourceTree = "<group>"; };
+		F1FC99D81BE2A15F00B2796C /* HoundifySDK Test Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HoundifySDK Test Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1FC99DC1BE2A15F00B2796C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1FC99DE1BE2A15F00B2796C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F1FC99DF1BE2A15F00B2796C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F1FC99E11BE2A15F00B2796C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F1FC99E21BE2A15F00B2796C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F1FC99E51BE2A15F00B2796C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1FC99E71BE2A15F00B2796C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F1FC99EC1BE2A15F00B2796C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1FC99F71BE2A2BA00B2796C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F1FC9A021BE2AD3900B2796C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F1FC9A041BE2AD4200B2796C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F1FC9A061BE2AD4A00B2796C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F1FC9A081BE2AD5100B2796C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F1FC9A0A1BE2AD5800B2796C /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		F1FC9A0C1BE2AD6600B2796C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F1FC9A0E1BE2AD7500B2796C /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		F1FC9A111BE3DE3E00B2796C /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		F1FC9A121BE3DE3E00B2796C /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		F1FC9A301BE80BF300B2796C /* AppImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppImages.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1FC99D51BE2A15F00B2796C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FC9A0F1BE2AD7500B2796C /* libc++.tbd in Frameworks */,
+				F1FC9A0D1BE2AD6600B2796C /* libz.tbd in Frameworks */,
+				F1FC9A0B1BE2AD5800B2796C /* Accelerate.framework in Frameworks */,
+				F1C2A6E91BF27E0A00A20B7C /* libHoundSDK.a in Frameworks */,
+				F1FC9A091BE2AD5100B2796C /* AVFoundation.framework in Frameworks */,
+				F1FC9A071BE2AD4A00B2796C /* AudioToolbox.framework in Frameworks */,
+				F1FC9A051BE2AD4200B2796C /* UIKit.framework in Frameworks */,
+				F1FC9A031BE2AD3900B2796C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1FC99CF1BE2A15F00B2796C = {
+			isa = PBXGroup;
+			children = (
+				F1FC99DA1BE2A15F00B2796C /* HoundifySDK Test Application */,
+				F1FC99FB1BE2ABFA00B2796C /* HoundSDK */,
+				F1FC99D91BE2A15F00B2796C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1FC99D91BE2A15F00B2796C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1FC99D81BE2A15F00B2796C /* HoundifySDK Test Application.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1FC99DA1BE2A15F00B2796C /* HoundifySDK Test Application */ = {
+			isa = PBXGroup;
+			children = (
+				F1FC99DE1BE2A15F00B2796C /* AppDelegate.h */,
+				F1FC99DF1BE2A15F00B2796C /* AppDelegate.m */,
+				F1FC99E41BE2A15F00B2796C /* Main.storyboard */,
+				F1FC99F21BE2A17200B2796C /* View Controllers */,
+				F1FC99F31BE2A18700B2796C /* Resources */,
+				F1FC99DB1BE2A15F00B2796C /* Supporting Files */,
+				F1FC9A101BE2AD7D00B2796C /* Frameworks */,
+			);
+			path = "HoundifySDK Test Application";
+			sourceTree = "<group>";
+		};
+		F1FC99DB1BE2A15F00B2796C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1FC99EC1BE2A15F00B2796C /* Info.plist */,
+				F1FC99DC1BE2A15F00B2796C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1FC99F21BE2A17200B2796C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F1FC99E11BE2A15F00B2796C /* ViewController.h */,
+				F1FC99E21BE2A15F00B2796C /* ViewController.m */,
+				F1FC9A111BE3DE3E00B2796C /* NavigationController.h */,
+				F1FC9A121BE3DE3E00B2796C /* NavigationController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		F1FC99F31BE2A18700B2796C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F1FC9A301BE80BF300B2796C /* AppImages.xcassets */,
+				F1FC99E71BE2A15F00B2796C /* Images.xcassets */,
+				F1FC99F61BE2A2BA00B2796C /* LaunchScreen.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F1FC99FB1BE2ABFA00B2796C /* HoundSDK */ = {
+			isa = PBXGroup;
+			children = (
+				F1C2A6EB1BF289DE00A20B7C /* HoundSDK.xcassets */,
+				F1C2A6E61BF27E0A00A20B7C /* include */,
+				F1C2A6E71BF27E0A00A20B7C /* libHoundSDK.a */,
+			);
+			name = HoundSDK;
+			sourceTree = "<group>";
+		};
+		F1FC9A101BE2AD7D00B2796C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1FC9A0E1BE2AD7500B2796C /* libc++.tbd */,
+				F1FC9A0C1BE2AD6600B2796C /* libz.tbd */,
+				F1FC9A0A1BE2AD5800B2796C /* Accelerate.framework */,
+				F1FC9A081BE2AD5100B2796C /* AVFoundation.framework */,
+				F1FC9A061BE2AD4A00B2796C /* AudioToolbox.framework */,
+				F1FC9A041BE2AD4200B2796C /* UIKit.framework */,
+				F1FC9A021BE2AD3900B2796C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1FC99D71BE2A15F00B2796C /* HoundifySDK Test Application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1FC99EF1BE2A15F00B2796C /* Build configuration list for PBXNativeTarget "HoundifySDK Test Application" */;
+			buildPhases = (
+				F1FC99D41BE2A15F00B2796C /* Sources */,
+				F1FC99D51BE2A15F00B2796C /* Frameworks */,
+				F1FC99D61BE2A15F00B2796C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HoundifySDK Test Application";
+			productName = "HoundifySDK Test Application";
+			productReference = F1FC99D81BE2A15F00B2796C /* HoundifySDK Test Application.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1FC99D01BE2A15F00B2796C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "SoundHound, Inc.";
+				TargetAttributes = {
+					F1FC99D71BE2A15F00B2796C = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 356QY8883U;
+					};
+				};
+			};
+			buildConfigurationList = F1FC99D31BE2A15F00B2796C /* Build configuration list for PBXProject "HoundifySDK Test Application" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1FC99CF1BE2A15F00B2796C;
+			productRefGroup = F1FC99D91BE2A15F00B2796C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1FC99D71BE2A15F00B2796C /* HoundifySDK Test Application */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1FC99D61BE2A15F00B2796C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FC9A311BE80BF300B2796C /* AppImages.xcassets in Resources */,
+				F1FC99F81BE2A2BA00B2796C /* LaunchScreen.xib in Resources */,
+				F1FC99E81BE2A15F00B2796C /* Images.xcassets in Resources */,
+				F1C2A6E81BF27E0A00A20B7C /* include in Resources */,
+				F1FC99E61BE2A15F00B2796C /* Main.storyboard in Resources */,
+				F1C2A6EC1BF289DE00A20B7C /* HoundSDK.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1FC99D41BE2A15F00B2796C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FC99E31BE2A15F00B2796C /* ViewController.m in Sources */,
+				F1FC9A131BE3DE3E00B2796C /* NavigationController.m in Sources */,
+				F1FC99E01BE2A15F00B2796C /* AppDelegate.m in Sources */,
+				F1FC99DD1BE2A15F00B2796C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1FC99E41BE2A15F00B2796C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1FC99E51BE2A15F00B2796C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1FC99F61BE2A2BA00B2796C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1FC99F71BE2A2BA00B2796C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1FC99ED1BE2A15F00B2796C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F1FC99EE1BE2A15F00B2796C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1FC99F01BE2A15F00B2796C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = YES;
+				HEADER_SEARCH_PATHS = ../HoundSDK/include/;
+				INFOPLIST_FILE = "HoundifySDK Test Application/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = ../HoundSDK/;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soundhound.houndify.sdk.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F1FC99F11BE2A15F00B2796C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = YES;
+				HEADER_SEARCH_PATHS = ../HoundSDK/include/;
+				INFOPLIST_FILE = "HoundifySDK Test Application/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = ../HoundSDK/;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soundhound.houndify.sdk.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1FC99D31BE2A15F00B2796C /* Build configuration list for PBXProject "HoundifySDK Test Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FC99ED1BE2A15F00B2796C /* Debug */,
+				F1FC99EE1BE2A15F00B2796C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1FC99EF1BE2A15F00B2796C /* Build configuration list for PBXNativeTarget "HoundifySDK Test Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FC99F01BE2A15F00B2796C /* Debug */,
+				F1FC99F11BE2A15F00B2796C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1FC99D01BE2A15F00B2796C /* Project object */;
+}
